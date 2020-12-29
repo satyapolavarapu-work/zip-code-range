@@ -1,3 +1,5 @@
+As the problem statement is breakdown and decomposed into following class files.
+
 Data Repository: 		In the data repository we will be reading data from a text file and read them as comma separated values and finally consolidated range list to a text file and create file.
 MinRangeException:		This class handles user defined exceptions.
 ZipcodeRange: 	  		This class will be acting like a POJO and having compareTo method for sorting out the given input range zipcodes
@@ -12,3 +14,9 @@ Project Structure:
 /zip-code-range/src/main/resources - Input text file will be provided here
 /zip-code-range/src/test/java/com/test/zipcode/range - Jnuit test classes will be present here
 zip-code-range/src/test/resources - Input files for Junits needs to be given here.
+
+Environment:
+Java 11
+Junit
+Maven
+Testcoverage - 81%
